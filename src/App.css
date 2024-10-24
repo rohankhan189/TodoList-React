@@ -1,0 +1,11 @@
+/* Hide spinner arrows in number input for WebKit browsers (e.g., Chrome, Safari) */
+.input-box::-webkit-inner-spin-button,
+.input-box::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide spinner arrows in number input for Firefox */
+.input-box[type="number"] {
+  -moz-appearance: textfield;
+}
